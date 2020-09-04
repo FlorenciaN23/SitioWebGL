@@ -1,0 +1,46 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+header{
+    font-family: 'Titillium Web';
+}
+#encabezado{
+    background: url('img/logoa.png');
+    background-size: cover;
+    min-height: 40vh;
+}
+section{
+    border: black;
+    padding: 2px;
+    font-family: 'Titillium Web', sans-serif;
+}
+nav{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+aside{
+    background-color: lightblue;
+    padding-bottom: 100px;
+    border-radius: 2mm;
+}
+footer{
+    background-color: black;
+    color: lightgoldenrodyellow;
+    text-align: center;
+    font-family: unset;
+    padding: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    color: #fddb3a ;
+    border-radius: 2mm;
+}
+#adivinanza{
+    background: url('img/fondo-adivinanza.jpg');
+    background-size: cover;
+}
+.background-overlay{
+    background:rgba(255, 234, 167,0.6);
+
+}

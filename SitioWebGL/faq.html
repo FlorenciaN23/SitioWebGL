@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafiland</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+   <!-- iconos -->
+   <script src="https://kit.fontawesome.com/fce1e9646e.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+
+
+</head>
+<body>
+<!-- encabezado -->
+<header id="encabezado">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <div class="header-content-left pt-5">
+                  <h5 class="text-light" >IMPRIMIMOS TUS IDEAS</h3>
+                      <br>
+                  <h6 class="text-light"> • Diseños personalizados • Calcos • Calendarios • Posavasos • Tarjetas Personales • Folletos • Señaladores • Stickers •</h4>
+              </div>
+          </div>
+      </div>
+ </div>
+
+</header>
+<!-- barra de navegacion -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-warning sticky-top mb-5">
+ <div class="container">
+ <a class="navbar-brand" href="#">Grafiland Website</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarNav">
+   <ul class="navbar-nav ml-auto">
+     <li class="nav-item ">
+       <a class="nav-link" href="index.html">Inicio</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="novedades.html">Novedades</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="productos.html">Productos</a>
+     </li>
+     <li class="nav-item active">
+         <a class="nav-link" href="faq.html">Preguntas frecuentes</a>
+     </li>
+     <li class="nav-item">
+         <a class="nav-link" href="contacto.html">Contacto</a>
+     </li>
+   </ul>
+ </div>
+ </div>
+</nav>
+<!-- secciones -->
+<section class="container">
+    <h1>   PREGUNTAS FRECUENTES </h1>
+</section>
+<!-- acordeon -->
+<section class="container text-center p-3">
+    <div class="row">
+        <div class="accordion" id="accordionExample">
+           <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ¿Qué medida en pixels es la adecuada para una correcta impresión?
+                </button>
+              </h2>
+            </div>        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Cuando tenemos que imprimir una foto en papel es necesario contar con algo de información. Para que nuestro archivo sea del tamaño indicado para una correcta impresión necesitamos saber algunas cosas. Esta es una tabla de consulta rápida tanto para imprimir a 300 como 200 dpi en formato mayores:
+                <br>
+                <div class="table-responsive-md">
+                  <table class="table mt-4">
+                      <caption>Tabla de medidas de impresión de fotografías</caption>
+                      <thead>
+                        <tr class="bg-warning" >
+                          <th scope="col">#</th>
+                          <th scope="col">Medidas (cm)</th>
+                          <th scope="col">Medida exacta (cm)</th>
+                          <th scope="col">Medida en Píxeles (300 DPI)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>9 x 13</td>
+                          <td>8,9 x 12,7</td>
+                          <td>1051 x 1500</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>15 x 21</td>
+                          <td>15,2 x 20,3</td>
+                          <td>1795 x 2539</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>30 x 45</td>
+                          <td>30,5 x 45</td>
+                          <td>3602 x 5315</td>
+                        </tr>
+                      </tbody>
+                  </table>
+                </div>          
+              </div>
+            </div>
+           </div>           
+           <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    ¿Cómo preparo la gestión de color?
+                  </button>
+                </h2>
+              </div>         
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Salvo que sepas exactamente lo que estás haciendo en tu gestión de color, el PDF para impresión debería contener sólo objetos en CMYK sin perfiles asociados o incrustados. En el caso que tengas correctamente configurada la gestión de color y tu monitor esté calibrado, el PDF podrá contener también objetos en RGB con sus correspondientes perfiles ICC incrustados. También se pueden usar colores PANTONE, acordando de antemano el uso del mismo con la imprenta.
+               </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    ¿Cómo debo preparar la resolución de mi archivo?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    RESOLUCION</strong> para <strong>papelería y folletería en general</strong>. Si lo que vas a imprimir es un folleto, una etiqueta pequeña o una tarjeta personal, lo recomendable es 300 DPI como máximo, y un mínimo de 200 DPI <strong>SIEMPRE a tamaño real</strong>. Exceder esta resolución no producirá ninguna mejora en la calidad de impresión, pero sí generará demora en la subida de tu archivo. Una resolución menor a 200 dpi puede producir el temido “pixelado”, sobre todo en textos pequeños y líneas finas.  
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                  <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    ¿Cuál es el formato más recomendable?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    El formato ideal es un PDF, pero si es muy complicado o no dispones de las herramientas o el conocimiento para crearlo, puedes generar un JPG que cumpla los requisitos anteriores en cuanto a resolución. Hay que tener cuidado con la compresión (siempre utilizar “alta”).
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container">    
+</section>
+
+ <!-- footer -->
+ <footer class="container-fluid mt-5">
+  <div class="row">
+      <div class="col-md-4 mt-4">
+          <img src="img/1.jpg" alt="logo de Grafiland" width="40%">
+      </div>
+      <div class="col-md-4 mt-4" >
+          <h5>Escribinos</h5>
+          <div class="d-flex flex-row justify-content-center">
+              <div class="pr-2">
+                  <i class="fab fa-whatsapp"></i>
+              </div>
+              <h4 style="color: #bfdcae;"> +54 9 3512 72-7687</h4>
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+              <div class="pr-2">
+                  <i class="far fa-envelope"></i>
+              </div>
+              <p style="color: #8d93ab;">jeremias_cba94@yahoo.com.ar</p>                
+          </div>
+      </div>
+      <div class="col-md-4 mt-4">
+          <h5>Seguinos</h5>
+      <div class="d-flex flex-row justify-content-center"> 
+          <div class="p-4">
+              <a href=https://www.facebook.com/grafiland.cba target="_blank">
+                  <i class="fab fa-facebook"></i>
+              </a>
+          </div>
+          <div class="p-4">
+              <a href="https://www.instagram.com/grafiland.cba/?hl=es-la" target="_blank">
+                  <i class="fab fa-instagram"></i>
+              </a>
+          </div>
+      </div>
+  </div>
+</footer>
+<footer class="mt-1">Todos los derechos reservados &copy; 2020</footer>
